@@ -30,7 +30,7 @@ describe('reducer', () => {
     const initialState = Map()
     const action = {
       type: 'SET_STATE',
-      states: {
+      state: {
         vote: {
           pair: ['Trainspotting', '28 Days Later'],
           tally: {Trainspotting: 1}
